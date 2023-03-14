@@ -1,0 +1,27 @@
+#drakeSliders {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1vw;
+}
+
+#columns {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+#info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#buttonContainer {
+  justify-content: end;
+}
+
+canvas {
+  border-radius: 100%;
+}

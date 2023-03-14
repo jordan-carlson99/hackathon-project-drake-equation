@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon Project</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="info">
+      <h2 id="N" class="info">0</h2>
+      <h2 id="NinLocal" class="info">0</h2>
+      <h2 id="NinMilkyWay" class="info">0</h2>
+      <h2 id="year" class="info">0</h2>
+    </div>
+    <div id="columns">
+      <div id="drakeSliders">
+        <p id="rVal"></p>
+        <input
+          class="drakeSlider"
+          id="r"
+          type="range"
+          min="0.5"
+          max="2"
+          step="0.1"
+        />
+        The rate of formation of stars suitable for the development of
+        intelligent life (number per year)
+        <p id="fpVal"></p>
+        <input
+          class="drakeSlider"
+          id="fp"
+          type="range"
+          min="0.2"
+          max="0.5"
+          step="0.1"
+        />
+        The fraction of those stars with planetary systems.
+        <p id="neVal"></p>
+        <input
+          class="drakeSlider"
+          id="ne"
+          type="range"
+          min="1"
+          max="5"
+          step="0.5"
+        />
+        The number of planets, per solar system, with an environment suitable
+        for life.
+        <p id="flVal"></p>
+        <input
+          class="drakeSlider"
+          id="fl"
+          type="range"
+          min="0.01"
+          max="1"
+          step="0.01"
+        />
+        The fraction of suitable planets on which life actually appears.
+        <p id="fiVal"></p>
+        <input
+          class="drakeSlider"
+          id="fi"
+          type="range"
+          min="0.01"
+          max="1"
+          step="0.01"
+        />
+        The fraction of life bearing planets on which intelligent life emerges.
+        <p id="fcVal"></p>
+        <input
+          class="drakeSlider"
+          id="fc"
+          type="range"
+          min="0.1"
+          max="0.2"
+          step="0.01"
+        />
+        The fraction of civilizations that develop a technology that produces
+        detectable signs of their existence.
+        <p id="lVal"></p>
+        <input
+          class="drakeSlider"
+          id="l"
+          type="range"
+          min="1000"
+          max="1000000000"
+          step="10000"
+        />
+        The average length of time such civilizations produce such signs
+        (years).
+      </div>
+      <div id="buttonContainer"></div>
+    </div>
+  </body>
+</html>
